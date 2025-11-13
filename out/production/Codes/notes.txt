@@ -1,0 +1,2 @@
+First try;
+test git connection write code in vs code to take line ij 
