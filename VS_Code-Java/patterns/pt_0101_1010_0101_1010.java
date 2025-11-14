@@ -13,7 +13,9 @@ public class pt_0101_1010_0101_1010 {
     public static void main(String[] args) {
         System.out.print("Enter Pattern Range : ");
         int range = ip.nextInt();
+        // its move row by row
         for (int row = 0; row < range; row++) {
+            // its move column by column
            for(int column=0;column<range;column++){
             // if(row%2==1){
             //     if(column%2==1){
@@ -31,6 +33,8 @@ public class pt_0101_1010_0101_1010 {
             //         System.out.print("1 ");
             //     }
             // }
+            // optimized code
+            // its check condition sum of row and column is odd
             if((row+column)%2==1){
                 System.out.print("1 ");
             }

@@ -13,10 +13,13 @@ public class pt_ABCD_1234_ABCD_1234 {
     public static void main(String[] args) {
         System.out.print("Enter Pattern Range : ");
         int range = ip.nextInt();
+        // its move row by row
         for (int row = 0; row < range; row++) {
+            // its move column by column
             char letter = 'A';
+            // its check condition row is odd
             for(int column=0;column<range;column++){
-                
+                // its check condition row is odd
                 if((row+1)%2==1){
                     System.out.print(letter++ +" ");
                 }

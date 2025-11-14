@@ -14,8 +14,11 @@ public class pt_1_to_7_then_reset_1_to_7 {
         System.out.print("Enter Pattern Range : ");
         int range = ip.nextInt();
         int number = 1;
+        // its move row by row
         for (int row = 0; row < range; row++) {
+            // its move column by column
             for (int column = 0; column < range; column++) {
+                // its check condition number is 8
                 if (number == 8) {
                     number = 1;
                 }
