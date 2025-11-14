@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pt_reverse_left_to_right",
+            "request": "launch",
+            "mainClass": "patterns.pt_reverse_left_to_right",
+            "projectName": "Codes_5c54aa01"
+        },
+        {
+            "type": "java",
+            "name": "convert_decimal__to___binary",
+            "request": "launch",
+            "mainClass": "convert_decimal__to___binary",
+            "projectName": "Codes_5c54aa01"
+        },
+        {
+            "type": "java",
+            "name": "convert_binary__to__decimal",
+            "request": "launch",
+            "mainClass": "convert_binary__to__decimal",
+            "projectName": "Codes_5c54aa01"
+        },
+        {
+            "type": "java",
             "name": "find_happy_Number_not",
             "request": "launch",
             "mainClass": "find_happy_Number_not",
