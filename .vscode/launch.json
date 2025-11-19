@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "diamond_full_cover",
+            "request": "launch",
+            "mainClass": "patterns.diamond_full_cover",
+            "projectName": "Codes_5c54aa01"
+        },
+        {
+            "type": "java",
             "name": "pt_reverse_left_to_right",
             "request": "launch",
             "mainClass": "patterns.pt_reverse_left_to_right",
